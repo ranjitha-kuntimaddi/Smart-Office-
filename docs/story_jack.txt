@@ -1,0 +1,13 @@
+Story
+
+Meet Jack the Consultant. He is hard working but usually he is a little bit late in the office.
+Of course all desks are occupied. He always spends a lot of time finding a desk and wastes his precious time.
+That puts him in a bad mood. He never knows where is team members are located and only interacts with them over chat.
+
+Success Story
+
+It is monday morning. Jack was stuck in a traffic jam and is running late again. Also he spilled his coffee. In the elevator he checks the SmartOffice
+App for an available desk. He finds a desk in proximity to his team. On the map he can easily find the desk. The app is registering Jack on the map.
+
+Jill, who also uses the SmartOffice App, notices that Jack has entered the office. She hasn't talked to Jack personally in a while. Using SmartOffice she can
+quickly locate Jack and invites him for a cup of coffee. What a great morning! :)
