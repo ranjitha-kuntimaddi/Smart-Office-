@@ -1,9 +1,15 @@
-npm install -g cordova
+#Run the app
 
-cordova create SmartOfficeApp
+npm install -g cordova bower
 
 cordova platform add browser
+
+/www > bower install
 
 cordova run browser
 
 cordova build android --debug
+
+#Notes
+
+cordova create SmartOfficeApp
