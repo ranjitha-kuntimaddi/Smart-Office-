@@ -1,0 +1,1272 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ios-sim',
+1 verbose cli   'ios-deploy' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose install initial load of C:\Users\STRAT2\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'ios-sim', null ]
+7 verbose cache add spec ios-sim
+8 silly cache add args [ 'ios-deploy', null ]
+9 verbose cache add spec ios-deploy
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'ios-sim',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'ios-sim',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed ios-sim@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for ios-sim
+13 info addNameTag [ 'ios-sim', 'latest' ]
+14 silly mapToRegistry name ios-sim
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/ios-sim
+18 verbose addNameTag registry:https://registry.npmjs.org/ios-sim not in flight; fetching
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: 'ios-deploy',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'ios-deploy',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: 'latest',
+19 silly cache add   type: 'tag' }
+20 silly addNamed ios-deploy@latest
+21 verbose addNamed "latest" is being treated as a dist-tag for ios-deploy
+22 info addNameTag [ 'ios-deploy', 'latest' ]
+23 silly mapToRegistry name ios-deploy
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/ios-deploy
+27 verbose addNameTag registry:https://registry.npmjs.org/ios-deploy not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/ios-sim
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 20:09:40
+31 verbose request id ee0dc6115e15b306
+32 http request GET https://registry.npmjs.org/ios-sim
+33 verbose request uri https://registry.npmjs.org/ios-deploy
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 20:09:40
+36 verbose etag "4CUS9875CC3DGHUBAFHHN6HOD"
+37 http request GET https://registry.npmjs.org/ios-deploy
+38 http 304 https://registry.npmjs.org/ios-deploy
+39 verbose headers { date: 'Fri, 11 Mar 2016 19:09:40 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   etag: '"4CUS9875CC3DGHUBAFHHN6HOD"',
+39 verbose headers   age: '17',
+39 verbose headers   connection: 'close',
+39 verbose headers   'x-served-by': 'cache-ams4139-AMS',
+39 verbose headers   'x-cache': 'HIT',
+39 verbose headers   'x-cache-hits': '1',
+39 verbose headers   'x-timer': 'S1457723380.910781,VS0,VE0',
+39 verbose headers   vary: 'Accept' }
+40 silly get cb [ 304,
+40 silly get   { date: 'Fri, 11 Mar 2016 19:09:40 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     etag: '"4CUS9875CC3DGHUBAFHHN6HOD"',
+40 silly get     age: '17',
+40 silly get     connection: 'close',
+40 silly get     'x-served-by': 'cache-ams4139-AMS',
+40 silly get     'x-cache': 'HIT',
+40 silly get     'x-cache-hits': '1',
+40 silly get     'x-timer': 'S1457723380.910781,VS0,VE0',
+40 silly get     vary: 'Accept' } ]
+41 verbose etag https://registry.npmjs.org/ios-deploy from cache
+42 verbose get saving ios-deploy to C:\Users\STRAT2\AppData\Roaming\npm-cache\registry.npmjs.org\ios-deploy\.cache.json
+43 silly addNameTag next cb for ios-deploy with tag latest
+44 silly addNamed ios-deploy@1.8.5
+45 verbose addNamed "1.8.5" is a plain semver version for ios-deploy
+46 silly cache afterAdd ios-deploy@1.8.5
+47 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\ios-deploy\1.8.5\package\package.json not in flight; writing
+48 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\ios-deploy\1.8.5\package\package.json written
+49 http 200 https://registry.npmjs.org/ios-sim
+50 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 verbose headers   etag: '"7ZTP8VD0J74VLPPFIQ85YXZ21"',
+50 verbose headers   'content-type': 'application/json',
+50 verbose headers   'cache-control': 'max-age=300',
+50 verbose headers   'content-length': '26575',
+50 verbose headers   'accept-ranges': 'bytes',
+50 verbose headers   date: 'Fri, 11 Mar 2016 19:09:41 GMT',
+50 verbose headers   via: '1.1 varnish',
+50 verbose headers   age: '0',
+50 verbose headers   connection: 'close',
+50 verbose headers   'x-served-by': 'cache-ams4127-AMS',
+50 verbose headers   'x-cache': 'HIT',
+50 verbose headers   'x-cache-hits': '1',
+50 verbose headers   'x-timer': 'S1457723380.918492,VS0,VE689',
+50 verbose headers   vary: 'Accept' }
+51 silly get cb [ 200,
+51 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly get     etag: '"7ZTP8VD0J74VLPPFIQ85YXZ21"',
+51 silly get     'content-type': 'application/json',
+51 silly get     'cache-control': 'max-age=300',
+51 silly get     'content-length': '26575',
+51 silly get     'accept-ranges': 'bytes',
+51 silly get     date: 'Fri, 11 Mar 2016 19:09:41 GMT',
+51 silly get     via: '1.1 varnish',
+51 silly get     age: '0',
+51 silly get     connection: 'close',
+51 silly get     'x-served-by': 'cache-ams4127-AMS',
+51 silly get     'x-cache': 'HIT',
+51 silly get     'x-cache-hits': '1',
+51 silly get     'x-timer': 'S1457723380.918492,VS0,VE689',
+51 silly get     vary: 'Accept' } ]
+52 verbose get saving ios-sim to C:\Users\STRAT2\AppData\Roaming\npm-cache\registry.npmjs.org\ios-sim\.cache.json
+53 silly addNameTag next cb for ios-sim with tag latest
+54 silly addNamed ios-sim@5.0.6
+55 verbose addNamed "5.0.6" is a plain semver version for ios-sim
+56 silly mapToRegistry name ios-sim
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/ios-sim
+60 verbose addRemoteTarball https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.6.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.6.tgz',
+61 verbose addRemoteTarball   '15c8e34aa9ed79df9edea26260efbba803fae7c6' ]
+62 info retry fetch attempt 1 at 20:09:41
+63 info attempt registry request try #1 at 20:09:41
+64 http fetch GET https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.6.tgz
+65 http fetch 200 https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.6.tgz
+66 silly fetchAndShaCheck shasum 15c8e34aa9ed79df9edea26260efbba803fae7c6
+67 verbose addTmpTarball C:\Users\STRAT2\AppData\Local\Temp\npm-2124-2e511ceb\registry.npmjs.org\ios-sim\-\ios-sim-5.0.6.tgz not in flight; adding
+68 verbose addTmpTarball already have metadata; skipping unpack for ios-sim@5.0.6
+69 silly cache afterAdd ios-sim@5.0.6
+70 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\ios-sim\5.0.6\package\package.json not in flight; writing
+71 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\ios-sim\5.0.6\package\package.json written
+72 silly install resolved [ { name: 'ios-deploy',
+72 silly install resolved     version: '1.8.5',
+72 silly install resolved     os: [ 'darwin' ],
+72 silly install resolved     description: 'launch iOS apps iOS devices from the command line (Xcode 7)',
+72 silly install resolved     main: 'ios-deploy',
+72 silly install resolved     scripts:
+72 silly install resolved      { preinstall: './src/scripts/check_reqs.js && xcodebuild',
+72 silly install resolved        test: 'npm run pycompile && npm run jshint && xcodebuild -target ios-deploy-lib && xcodebuild test -scheme ios-deploy-tests',
+72 silly install resolved        jshint: 'node node_modules/jshint/bin/jshint src/scripts/*.js',
+72 silly install resolved        pycompile: 'python -m py_compile src/scripts/*.py' },
+72 silly install resolved     bin: { 'ios-deploy': './build/Release/ios-deploy' },
+72 silly install resolved     repository:
+72 silly install resolved      { type: 'git',
+72 silly install resolved        url: 'git+https://github.com/phonegap/ios-deploy.git' },
+72 silly install resolved     devDependencies: { jshint: '2.5.8' },
+72 silly install resolved     keywords: [ 'ios-deploy', 'deploy to iOS device' ],
+72 silly install resolved     bugs: { url: 'https://github.com/phonegap/ios-deploy/issues' },
+72 silly install resolved     author: { name: 'Greg Hughes' },
+72 silly install resolved     license: 'GPLv3',
+72 silly install resolved     gitHead: 'c4cd7b4a555723731a8912ec02f4adeb0af6ded2',
+72 silly install resolved     homepage: 'https://github.com/phonegap/ios-deploy#readme',
+72 silly install resolved     _id: 'ios-deploy@1.8.5',
+72 silly install resolved     _shasum: '0b68ea29bf23a53981c7d09238cf12ca74aa1dba',
+72 silly install resolved     _from: 'ios-deploy@latest',
+72 silly install resolved     _npmVersion: '2.11.3',
+72 silly install resolved     _nodeVersion: '0.12.7',
+72 silly install resolved     _npmUser: { name: 'shazron', email: 'shazron@gmail.com' },
+72 silly install resolved     dist:
+72 silly install resolved      { shasum: '0b68ea29bf23a53981c7d09238cf12ca74aa1dba',
+72 silly install resolved        tarball: 'http://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.5.tgz' },
+72 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+72 silly install resolved     _npmOperationalInternal:
+72 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+72 silly install resolved        tmp: 'tmp/ios-deploy-1.8.5.tgz_1454607982930_0.32560620410367846' },
+72 silly install resolved     directories: {},
+72 silly install resolved     _resolved: 'https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.5.tgz',
+72 silly install resolved     readme: 'ERROR: No README data found!' },
+72 silly install resolved   { name: 'ios-sim',
+72 silly install resolved     version: '5.0.6',
+72 silly install resolved     preferGlobal: 'true',
+72 silly install resolved     description: 'launch iOS apps into the iOS Simulator from the command line (Xcode 6.0+)',
+72 silly install resolved     main: 'ios-sim.js',
+72 silly install resolved     repository:
+72 silly install resolved      { type: 'git',
+72 silly install resolved        url: 'git+https://github.com/phonegap/ios-sim.git' },
+72 silly install resolved     engines: { node: '>=0.10.0' },
+72 silly install resolved     keywords: [ 'ios-sim', 'iOS Simulator' ],
+72 silly install resolved     bin: { 'ios-sim': './bin/ios-sim' },
+72 silly install resolved     bugs: { url: 'https://github.com/phonegap/ios-sim/issues' },
+72 silly install resolved     author: { name: 'Shazron Abdullah' },
+72 silly install resolved     license: 'MIT',
+72 silly install resolved     dependencies: { simctl: '^0.0.8', nopt: '1.0.9', 'bplist-parser': '^0.0.6' },
+72 silly install resolved     gitHead: '5ae111d494f547c301b00e068cbd8aef46cf3988',
+72 silly install resolved     homepage: 'https://github.com/phonegap/ios-sim#readme',
+72 silly install resolved     _id: 'ios-sim@5.0.6',
+72 silly install resolved     scripts: {},
+72 silly install resolved     _shasum: '15c8e34aa9ed79df9edea26260efbba803fae7c6',
+72 silly install resolved     _from: 'ios-sim@latest',
+72 silly install resolved     _npmVersion: '2.11.3',
+72 silly install resolved     _nodeVersion: '0.12.7',
+72 silly install resolved     _npmUser: { name: 'shazron', email: 'shazron@gmail.com' },
+72 silly install resolved     dist:
+72 silly install resolved      { shasum: '15c8e34aa9ed79df9edea26260efbba803fae7c6',
+72 silly install resolved        tarball: 'http://registry.npmjs.org/ios-sim/-/ios-sim-5.0.6.tgz' },
+72 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+72 silly install resolved     directories: {},
+72 silly install resolved     _resolved: 'https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.6.tgz' } ]
+73 info install ios-deploy@1.8.5 into C:\Users\STRAT2\AppData\Roaming\npm
+74 info install ios-sim@5.0.6 into C:\Users\STRAT2\AppData\Roaming\npm
+75 info installOne ios-deploy@1.8.5
+76 verbose installOne of ios-deploy to C:\Users\STRAT2\AppData\Roaming\npm not in flight; installing
+77 info installOne ios-sim@5.0.6
+78 verbose installOne of ios-sim to C:\Users\STRAT2\AppData\Roaming\npm not in flight; installing
+79 verbose lock using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\ios-deploy-814f858b57320ff8.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-deploy
+80 verbose lock using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\ios-sim-dffd477d8ab93c16.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+81 verbose unlock done using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\ios-deploy-814f858b57320ff8.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-deploy
+82 silly install write writing ios-sim 5.0.6 to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+83 verbose unbuild node_modules\ios-sim
+84 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim is being purged from base C:\Users\STRAT2\AppData\Roaming\npm
+85 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+86 verbose tar unpack C:\Users\STRAT2\AppData\Roaming\npm-cache\ios-sim\5.0.6\package.tgz
+87 verbose tar unpacking to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+88 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim is being purged
+89 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+90 silly gunzTarPerm modes [ '777', '666' ]
+91 silly gunzTarPerm extractEntry package.json
+92 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+93 silly gunzTarPerm extractEntry .npmignore
+94 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+95 silly gunzTarPerm extractEntry README.md
+96 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+97 silly gunzTarPerm extractEntry LICENSE
+98 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+99 silly gunzTarPerm extractEntry ios-sim.js
+100 silly gunzTarPerm modified mode [ 'ios-sim.js', 420, 438 ]
+101 silly gunzTarPerm extractEntry doc/help.txt
+102 silly gunzTarPerm modified mode [ 'doc/help.txt', 420, 438 ]
+103 silly gunzTarPerm extractEntry CONTRIBUTING.md
+104 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+105 silly gunzTarPerm extractEntry resources/buildbox/build.sh
+106 silly gunzTarPerm modified mode [ 'resources/buildbox/build.sh', 493, 511 ]
+107 silly gunzTarPerm extractEntry bin/ios-sim
+108 silly gunzTarPerm modified mode [ 'bin/ios-sim', 493, 511 ]
+109 silly gunzTarPerm extractEntry bin/ios-sim.cmd
+110 silly gunzTarPerm modified mode [ 'bin/ios-sim.cmd', 493, 511 ]
+111 silly gunzTarPerm extractEntry src/cli.js
+112 silly gunzTarPerm modified mode [ 'src/cli.js', 420, 438 ]
+113 silly gunzTarPerm extractEntry src/commands.js
+114 silly gunzTarPerm modified mode [ 'src/commands.js', 420, 438 ]
+115 silly gunzTarPerm extractEntry src/help.js
+116 silly gunzTarPerm modified mode [ 'src/help.js', 420, 438 ]
+117 silly gunzTarPerm extractEntry src/lib.js
+118 silly gunzTarPerm modified mode [ 'src/lib.js', 420, 438 ]
+119 verbose write writing to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\package.json
+120 info preinstall ios-sim@5.0.6
+121 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\package.json
+122 silly prepareForInstallMany adding simctl@^0.0.8 from ios-sim dependencies
+123 silly prepareForInstallMany adding nopt@1.0.9 from ios-sim dependencies
+124 silly prepareForInstallMany adding bplist-parser@^0.0.6 from ios-sim dependencies
+125 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\package.json
+126 silly cache add args [ 'simctl@^0.0.8', null ]
+127 verbose cache add spec simctl@^0.0.8
+128 silly cache add args [ 'nopt@1.0.9', null ]
+129 verbose cache add spec nopt@1.0.9
+130 silly cache add parsed spec Result {
+130 silly cache add   raw: 'simctl@^0.0.8',
+130 silly cache add   scope: null,
+130 silly cache add   name: 'simctl',
+130 silly cache add   rawSpec: '^0.0.8',
+130 silly cache add   spec: '>=0.0.8 <0.0.9',
+130 silly cache add   type: 'range' }
+131 silly addNamed simctl@>=0.0.8 <0.0.9
+132 verbose addNamed ">=0.0.8 <0.0.9" is a valid semver range for simctl
+133 silly addNameRange { name: 'simctl', range: '>=0.0.8 <0.0.9', hasData: false }
+134 silly mapToRegistry name simctl
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry uri https://registry.npmjs.org/simctl
+138 verbose addNameRange registry:https://registry.npmjs.org/simctl not in flight; fetching
+139 silly cache add parsed spec Result {
+139 silly cache add   raw: 'nopt@1.0.9',
+139 silly cache add   scope: null,
+139 silly cache add   name: 'nopt',
+139 silly cache add   rawSpec: '1.0.9',
+139 silly cache add   spec: '1.0.9',
+139 silly cache add   type: 'version' }
+140 silly addNamed nopt@1.0.9
+141 verbose addNamed "1.0.9" is a plain semver version for nopt
+142 silly mapToRegistry name nopt
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/nopt
+146 verbose addNameVersion registry:https://registry.npmjs.org/nopt not in flight; fetching
+147 silly cache add args [ 'bplist-parser@^0.0.6', null ]
+148 verbose cache add spec bplist-parser@^0.0.6
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'bplist-parser@^0.0.6',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'bplist-parser',
+149 silly cache add   rawSpec: '^0.0.6',
+149 silly cache add   spec: '>=0.0.6 <0.0.7',
+149 silly cache add   type: 'range' }
+150 silly addNamed bplist-parser@>=0.0.6 <0.0.7
+151 verbose addNamed ">=0.0.6 <0.0.7" is a valid semver range for bplist-parser
+152 silly addNameRange { name: 'bplist-parser',
+152 silly addNameRange   range: '>=0.0.6 <0.0.7',
+152 silly addNameRange   hasData: false }
+153 silly mapToRegistry name bplist-parser
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry uri https://registry.npmjs.org/bplist-parser
+157 verbose addNameRange registry:https://registry.npmjs.org/bplist-parser not in flight; fetching
+158 verbose request uri https://registry.npmjs.org/simctl
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 20:09:42
+161 http request GET https://registry.npmjs.org/simctl
+162 verbose request uri https://registry.npmjs.org/bplist-parser
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 20:09:42
+165 http request GET https://registry.npmjs.org/bplist-parser
+166 verbose request uri https://registry.npmjs.org/nopt
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 20:09:42
+169 verbose etag "53NWQ6XY2NLAFB30G2E3W8W60"
+170 http request GET https://registry.npmjs.org/nopt
+171 http 304 https://registry.npmjs.org/nopt
+172 verbose headers { date: 'Fri, 11 Mar 2016 19:09:42 GMT',
+172 verbose headers   via: '1.1 varnish',
+172 verbose headers   'cache-control': 'max-age=300',
+172 verbose headers   etag: '"53NWQ6XY2NLAFB30G2E3W8W60"',
+172 verbose headers   age: '201',
+172 verbose headers   connection: 'close',
+172 verbose headers   'x-served-by': 'cache-ams4121-AMS',
+172 verbose headers   'x-cache': 'HIT',
+172 verbose headers   'x-cache-hits': '4',
+172 verbose headers   'x-timer': 'S1457723382.234281,VS0,VE0',
+172 verbose headers   vary: 'Accept' }
+173 silly get cb [ 304,
+173 silly get   { date: 'Fri, 11 Mar 2016 19:09:42 GMT',
+173 silly get     via: '1.1 varnish',
+173 silly get     'cache-control': 'max-age=300',
+173 silly get     etag: '"53NWQ6XY2NLAFB30G2E3W8W60"',
+173 silly get     age: '201',
+173 silly get     connection: 'close',
+173 silly get     'x-served-by': 'cache-ams4121-AMS',
+173 silly get     'x-cache': 'HIT',
+173 silly get     'x-cache-hits': '4',
+173 silly get     'x-timer': 'S1457723382.234281,VS0,VE0',
+173 silly get     vary: 'Accept' } ]
+174 verbose etag https://registry.npmjs.org/nopt from cache
+175 verbose get saving nopt to C:\Users\STRAT2\AppData\Roaming\npm-cache\registry.npmjs.org\nopt\.cache.json
+176 silly mapToRegistry name nopt
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry uri https://registry.npmjs.org/nopt
+180 verbose addRemoteTarball https://registry.npmjs.org/nopt/-/nopt-1.0.9.tgz not in flight; adding
+181 verbose addRemoteTarball [ 'https://registry.npmjs.org/nopt/-/nopt-1.0.9.tgz',
+181 verbose addRemoteTarball   '3bc0d7cba7bfb0d5a676dbed7c0ebe48a4fd454e' ]
+182 info retry fetch attempt 1 at 20:09:42
+183 info attempt registry request try #1 at 20:09:42
+184 http fetch GET https://registry.npmjs.org/nopt/-/nopt-1.0.9.tgz
+185 http fetch 200 https://registry.npmjs.org/nopt/-/nopt-1.0.9.tgz
+186 silly fetchAndShaCheck shasum 3bc0d7cba7bfb0d5a676dbed7c0ebe48a4fd454e
+187 verbose addTmpTarball C:\Users\STRAT2\AppData\Local\Temp\npm-2124-2e511ceb\registry.npmjs.org\nopt\-\nopt-1.0.9.tgz not in flight; adding
+188 verbose addTmpTarball already have metadata; skipping unpack for nopt@1.0.9
+189 silly cache afterAdd nopt@1.0.9
+190 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\nopt\1.0.9\package\package.json not in flight; writing
+191 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\nopt\1.0.9\package\package.json written
+192 http 200 https://registry.npmjs.org/bplist-parser
+193 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+193 verbose headers   etag: '"AGWSPFCRLNGDFFNZ3XI793Q8Q"',
+193 verbose headers   'content-type': 'application/json',
+193 verbose headers   'cache-control': 'max-age=300',
+193 verbose headers   'content-length': '9398',
+193 verbose headers   'accept-ranges': 'bytes',
+193 verbose headers   date: 'Fri, 11 Mar 2016 19:09:42 GMT',
+193 verbose headers   via: '1.1 varnish',
+193 verbose headers   age: '0',
+193 verbose headers   connection: 'close',
+193 verbose headers   'x-served-by': 'cache-ams4140-AMS',
+193 verbose headers   'x-cache': 'HIT',
+193 verbose headers   'x-cache-hits': '1',
+193 verbose headers   'x-timer': 'S1457723382.242472,VS0,VE383',
+193 verbose headers   vary: 'Accept' }
+194 silly get cb [ 200,
+194 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+194 silly get     etag: '"AGWSPFCRLNGDFFNZ3XI793Q8Q"',
+194 silly get     'content-type': 'application/json',
+194 silly get     'cache-control': 'max-age=300',
+194 silly get     'content-length': '9398',
+194 silly get     'accept-ranges': 'bytes',
+194 silly get     date: 'Fri, 11 Mar 2016 19:09:42 GMT',
+194 silly get     via: '1.1 varnish',
+194 silly get     age: '0',
+194 silly get     connection: 'close',
+194 silly get     'x-served-by': 'cache-ams4140-AMS',
+194 silly get     'x-cache': 'HIT',
+194 silly get     'x-cache-hits': '1',
+194 silly get     'x-timer': 'S1457723382.242472,VS0,VE383',
+194 silly get     vary: 'Accept' } ]
+195 verbose get saving bplist-parser to C:\Users\STRAT2\AppData\Roaming\npm-cache\registry.npmjs.org\bplist-parser\.cache.json
+196 http 200 https://registry.npmjs.org/simctl
+197 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+197 verbose headers   etag: '"28AT4CVXNEWDAXRUT65W6POH3"',
+197 verbose headers   'content-type': 'application/json',
+197 verbose headers   'cache-control': 'max-age=300',
+197 verbose headers   'content-length': '7168',
+197 verbose headers   'accept-ranges': 'bytes',
+197 verbose headers   date: 'Fri, 11 Mar 2016 19:09:42 GMT',
+197 verbose headers   via: '1.1 varnish',
+197 verbose headers   age: '0',
+197 verbose headers   connection: 'close',
+197 verbose headers   'x-served-by': 'cache-ams4148-AMS',
+197 verbose headers   'x-cache': 'HIT',
+197 verbose headers   'x-cache-hits': '1',
+197 verbose headers   'x-timer': 'S1457723382.233585,VS0,VE408',
+197 verbose headers   vary: 'Accept' }
+198 silly get cb [ 200,
+198 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+198 silly get     etag: '"28AT4CVXNEWDAXRUT65W6POH3"',
+198 silly get     'content-type': 'application/json',
+198 silly get     'cache-control': 'max-age=300',
+198 silly get     'content-length': '7168',
+198 silly get     'accept-ranges': 'bytes',
+198 silly get     date: 'Fri, 11 Mar 2016 19:09:42 GMT',
+198 silly get     via: '1.1 varnish',
+198 silly get     age: '0',
+198 silly get     connection: 'close',
+198 silly get     'x-served-by': 'cache-ams4148-AMS',
+198 silly get     'x-cache': 'HIT',
+198 silly get     'x-cache-hits': '1',
+198 silly get     'x-timer': 'S1457723382.233585,VS0,VE408',
+198 silly get     vary: 'Accept' } ]
+199 verbose get saving simctl to C:\Users\STRAT2\AppData\Roaming\npm-cache\registry.npmjs.org\simctl\.cache.json
+200 silly addNameRange number 2 { name: 'bplist-parser', range: '>=0.0.6 <0.0.7', hasData: true }
+201 silly addNameRange versions [ 'bplist-parser',
+201 silly addNameRange   [ '0.0.1',
+201 silly addNameRange     '0.0.2',
+201 silly addNameRange     '0.0.3',
+201 silly addNameRange     '0.0.4',
+201 silly addNameRange     '0.0.5',
+201 silly addNameRange     '0.0.6',
+201 silly addNameRange     '0.1.0',
+201 silly addNameRange     '0.1.1' ] ]
+202 silly addNamed bplist-parser@0.0.6
+203 verbose addNamed "0.0.6" is a plain semver version for bplist-parser
+204 silly mapToRegistry name bplist-parser
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npmjs.org/
+207 silly mapToRegistry uri https://registry.npmjs.org/bplist-parser
+208 verbose addRemoteTarball https://registry.npmjs.org/bplist-parser/-/bplist-parser-0.0.6.tgz not in flight; adding
+209 verbose addRemoteTarball [ 'https://registry.npmjs.org/bplist-parser/-/bplist-parser-0.0.6.tgz',
+209 verbose addRemoteTarball   '38da3471817df9d44ab3892e27707bbbd75a11b9' ]
+210 info retry fetch attempt 1 at 20:09:42
+211 info attempt registry request try #1 at 20:09:42
+212 http fetch GET https://registry.npmjs.org/bplist-parser/-/bplist-parser-0.0.6.tgz
+213 silly addNameRange number 2 { name: 'simctl', range: '>=0.0.8 <0.0.9', hasData: true }
+214 silly addNameRange versions [ 'simctl',
+214 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.5', '0.0.6', '0.0.7', '0.0.8' ] ]
+215 silly addNamed simctl@0.0.8
+216 verbose addNamed "0.0.8" is a plain semver version for simctl
+217 silly mapToRegistry name simctl
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry uri https://registry.npmjs.org/simctl
+221 verbose addRemoteTarball https://registry.npmjs.org/simctl/-/simctl-0.0.8.tgz not in flight; adding
+222 verbose addRemoteTarball [ 'https://registry.npmjs.org/simctl/-/simctl-0.0.8.tgz',
+222 verbose addRemoteTarball   '94322d0270e45e08d732c232c913f8a8133af641' ]
+223 info retry fetch attempt 1 at 20:09:42
+224 info attempt registry request try #1 at 20:09:42
+225 http fetch GET https://registry.npmjs.org/simctl/-/simctl-0.0.8.tgz
+226 http fetch 200 https://registry.npmjs.org/simctl/-/simctl-0.0.8.tgz
+227 silly fetchAndShaCheck shasum 94322d0270e45e08d732c232c913f8a8133af641
+228 verbose addTmpTarball C:\Users\STRAT2\AppData\Local\Temp\npm-2124-2e511ceb\registry.npmjs.org\simctl\-\simctl-0.0.8.tgz not in flight; adding
+229 verbose addTmpTarball already have metadata; skipping unpack for simctl@0.0.8
+230 silly cache afterAdd simctl@0.0.8
+231 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\simctl\0.0.8\package\package.json not in flight; writing
+232 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\simctl\0.0.8\package\package.json written
+233 http fetch 200 https://registry.npmjs.org/bplist-parser/-/bplist-parser-0.0.6.tgz
+234 silly fetchAndShaCheck shasum 38da3471817df9d44ab3892e27707bbbd75a11b9
+235 verbose addTmpTarball C:\Users\STRAT2\AppData\Local\Temp\npm-2124-2e511ceb\registry.npmjs.org\bplist-parser\-\bplist-parser-0.0.6.tgz not in flight; adding
+236 verbose addTmpTarball already have metadata; skipping unpack for bplist-parser@0.0.6
+237 silly cache afterAdd bplist-parser@0.0.6
+238 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\bplist-parser\0.0.6\package\package.json not in flight; writing
+239 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\bplist-parser\0.0.6\package\package.json written
+240 silly install resolved [ { name: 'nopt',
+240 silly install resolved     version: '1.0.9',
+240 silly install resolved     description: 'Option parsing for Node, supporting types, shorthands, etc. Used by npm.',
+240 silly install resolved     author:
+240 silly install resolved      { name: 'Isaac Z. Schlueter',
+240 silly install resolved        email: 'i@izs.me',
+240 silly install resolved        url: 'http://blog.izs.me/' },
+240 silly install resolved     main: 'lib/nopt.js',
+240 silly install resolved     scripts: { test: 'node lib/nopt.js' },
+240 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/nopt.git' },
+240 silly install resolved     bin: { nopt: './bin/nopt.js' },
+240 silly install resolved     license:
+240 silly install resolved      { type: 'MIT',
+240 silly install resolved        url: 'https://github.com/isaacs/nopt/raw/master/LICENSE' },
+240 silly install resolved     dependencies: { abbrev: '1' },
+240 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+240 silly install resolved     _id: 'nopt@1.0.9',
+240 silly install resolved     devDependencies: {},
+240 silly install resolved     engines: { node: '*' },
+240 silly install resolved     _engineSupported: true,
+240 silly install resolved     _npmVersion: '1.0.30',
+240 silly install resolved     _nodeVersion: 'v0.5.8-pre',
+240 silly install resolved     _defaultsLoaded: true,
+240 silly install resolved     dist:
+240 silly install resolved      { shasum: '3bc0d7cba7bfb0d5a676dbed7c0ebe48a4fd454e',
+240 silly install resolved        tarball: 'http://registry.npmjs.org/nopt/-/nopt-1.0.9.tgz' },
+240 silly install resolved     maintainers: [ [Object] ],
+240 silly install resolved     directories: {},
+240 silly install resolved     _shasum: '3bc0d7cba7bfb0d5a676dbed7c0ebe48a4fd454e',
+240 silly install resolved     _resolved: 'https://registry.npmjs.org/nopt/-/nopt-1.0.9.tgz',
+240 silly install resolved     _from: 'nopt@1.0.9' },
+240 silly install resolved   { name: 'simctl',
+240 silly install resolved     version: '0.0.8',
+240 silly install resolved     description: 'library for Xcode simctl utility on OS X',
+240 silly install resolved     repository:
+240 silly install resolved      { type: 'git',
+240 silly install resolved        url: 'git+https://github.com/phonegap/simctl.git' },
+240 silly install resolved     main: 'simctl.js',
+240 silly install resolved     dependencies: { shelljs: '^0.2.6', tail: '^0.4.0' },
+240 silly install resolved     keywords: [ 'simctl', 'iOS Simulator' ],
+240 silly install resolved     author: { name: 'Shazron Abdullah' },
+240 silly install resolved     license: 'MIT',
+240 silly install resolved     gitHead: 'b8f7f570719961d9062bdab513fbb3cf8e295ff9',
+240 silly install resolved     bugs: { url: 'https://github.com/phonegap/simctl/issues' },
+240 silly install resolved     homepage: 'https://github.com/phonegap/simctl#readme',
+240 silly install resolved     _id: 'simctl@0.0.8',
+240 silly install resolved     scripts: {},
+240 silly install resolved     _shasum: '94322d0270e45e08d732c232c913f8a8133af641',
+240 silly install resolved     _from: 'simctl@>=0.0.8 <0.0.9',
+240 silly install resolved     _npmVersion: '2.11.3',
+240 silly install resolved     _nodeVersion: '0.12.7',
+240 silly install resolved     _npmUser: { name: 'shazron', email: 'shazron@gmail.com' },
+240 silly install resolved     dist:
+240 silly install resolved      { shasum: '94322d0270e45e08d732c232c913f8a8133af641',
+240 silly install resolved        tarball: 'http://registry.npmjs.org/simctl/-/simctl-0.0.8.tgz' },
+240 silly install resolved     maintainers: [ [Object] ],
+240 silly install resolved     directories: {},
+240 silly install resolved     _resolved: 'https://registry.npmjs.org/simctl/-/simctl-0.0.8.tgz' },
+240 silly install resolved   { name: 'bplist-parser',
+240 silly install resolved     version: '0.0.6',
+240 silly install resolved     description: 'Binary plist parser.',
+240 silly install resolved     main: 'bplistParser.js',
+240 silly install resolved     scripts: { test: './node_modules/nodeunit/bin/nodeunit test' },
+240 silly install resolved     keywords: [ 'bplist', 'plist', 'parser' ],
+240 silly install resolved     author: { name: 'Joe Ferner', email: 'joe.ferner@nearinfinity.com' },
+240 silly install resolved     license: 'MIT',
+240 silly install resolved     devDependencies: { nodeunit: '~0.7.4' },
+240 silly install resolved     repository:
+240 silly install resolved      { type: 'git',
+240 silly install resolved        url: 'https://github.com/nearinfinity/node-bplist-parser.git' },
+240 silly install resolved     gitHead: 'a2230a5df3c7014ffbe5761bcb091ea2d061b47b',
+240 silly install resolved     bugs: { url: 'https://github.com/nearinfinity/node-bplist-parser/issues' },
+240 silly install resolved     homepage: 'https://github.com/nearinfinity/node-bplist-parser',
+240 silly install resolved     _id: 'bplist-parser@0.0.6',
+240 silly install resolved     _shasum: '38da3471817df9d44ab3892e27707bbbd75a11b9',
+240 silly install resolved     _from: 'bplist-parser@>=0.0.6 <0.0.7',
+240 silly install resolved     _npmVersion: '1.4.14',
+240 silly install resolved     _npmUser: { name: 'joeferner', email: 'joe@fernsroth.com' },
+240 silly install resolved     maintainers: [ [Object] ],
+240 silly install resolved     dist:
+240 silly install resolved      { shasum: '38da3471817df9d44ab3892e27707bbbd75a11b9',
+240 silly install resolved        tarball: 'http://registry.npmjs.org/bplist-parser/-/bplist-parser-0.0.6.tgz' },
+240 silly install resolved     directories: {},
+240 silly install resolved     _resolved: 'https://registry.npmjs.org/bplist-parser/-/bplist-parser-0.0.6.tgz' } ]
+241 info install nopt@1.0.9 into C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+242 info install simctl@0.0.8 into C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+243 info install bplist-parser@0.0.6 into C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+244 info installOne nopt@1.0.9
+245 verbose installOne of nopt to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim not in flight; installing
+246 info installOne simctl@0.0.8
+247 verbose installOne of simctl to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim not in flight; installing
+248 info installOne bplist-parser@0.0.6
+249 verbose installOne of bplist-parser to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim not in flight; installing
+250 verbose lock using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\bplist-parser-4d932c31b31844ed.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser
+251 verbose lock using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\simctl-85e112908380e2c2.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+252 silly install write writing bplist-parser 0.0.6 to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser
+253 verbose lock using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\nopt-558f41e74b9b71cf.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+254 silly install write writing simctl 0.0.8 to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+255 silly install write writing nopt 1.0.9 to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+256 verbose unbuild node_modules\ios-sim\node_modules\bplist-parser
+257 verbose unbuild node_modules\ios-sim\node_modules\simctl
+258 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser is being purged from base C:\Users\STRAT2\AppData\Roaming\npm
+259 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser
+260 verbose tar unpack C:\Users\STRAT2\AppData\Roaming\npm-cache\bplist-parser\0.0.6\package.tgz
+261 verbose tar unpacking to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser
+262 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser is being purged
+263 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser
+264 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl is being purged from base C:\Users\STRAT2\AppData\Roaming\npm
+265 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+266 silly gunzTarPerm modes [ '777', '666' ]
+267 verbose tar unpack C:\Users\STRAT2\AppData\Roaming\npm-cache\simctl\0.0.8\package.tgz
+268 verbose tar unpacking to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+269 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl is being purged
+270 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+271 verbose unbuild node_modules\ios-sim\node_modules\nopt
+272 silly gunzTarPerm modes [ '777', '666' ]
+273 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt is being purged from base C:\Users\STRAT2\AppData\Roaming\npm
+274 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+275 verbose tar unpack C:\Users\STRAT2\AppData\Roaming\npm-cache\nopt\1.0.9\package.tgz
+276 verbose tar unpacking to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+277 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt is being purged
+278 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+279 silly gunzTarPerm modes [ '777', '666' ]
+280 silly gunzTarPerm extractEntry package.json
+281 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+282 silly gunzTarPerm extractEntry package.json
+283 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+284 silly gunzTarPerm extractEntry .npmignore
+285 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+286 silly gunzTarPerm extractEntry README.md
+287 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+288 silly gunzTarPerm extractEntry .gitignore
+289 silly gunzTarPerm modified mode [ '.gitignore', 420, 438 ]
+290 silly gunzTarPerm extractEntry .npmignore
+291 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+292 silly gunzTarPerm extractEntry README.md
+293 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+294 silly gunzTarPerm extractEntry LICENSE
+295 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+296 silly gunzTarPerm extractEntry package.json
+297 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+298 silly gunzTarPerm extractEntry LICENSE
+299 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+300 silly gunzTarPerm extractEntry simctl.js
+301 silly gunzTarPerm modified mode [ 'simctl.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry bplistParser.js
+303 silly gunzTarPerm modified mode [ 'bplistParser.js', 436, 438 ]
+304 silly gunzTarPerm extractEntry test/parseTest.js
+305 silly gunzTarPerm modified mode [ 'test/parseTest.js', 420, 438 ]
+306 silly gunzTarPerm extractEntry README.md
+307 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+308 silly gunzTarPerm extractEntry bin/nopt.js
+309 silly gunzTarPerm modified mode [ 'bin/nopt.js', 493, 511 ]
+310 silly gunzTarPerm extractEntry lib/simctl-extensions.js
+311 silly gunzTarPerm modified mode [ 'lib/simctl-extensions.js', 420, 438 ]
+312 silly gunzTarPerm extractEntry lib/simctl-list-parser.js
+313 silly gunzTarPerm modified mode [ 'lib/simctl-list-parser.js', 420, 438 ]
+314 silly gunzTarPerm extractEntry test/airplay.bplist
+315 silly gunzTarPerm modified mode [ 'test/airplay.bplist', 420, 438 ]
+316 silly gunzTarPerm extractEntry examples/my-program.js
+317 silly gunzTarPerm modified mode [ 'examples/my-program.js', 493, 511 ]
+318 silly gunzTarPerm extractEntry lib/nopt.js
+319 silly gunzTarPerm modified mode [ 'lib/nopt.js', 420, 438 ]
+320 silly gunzTarPerm extractEntry test/iTunes-small.bplist
+321 silly gunzTarPerm modified mode [ 'test/iTunes-small.bplist', 420, 438 ]
+322 silly gunzTarPerm extractEntry test/sample1.bplist
+323 silly gunzTarPerm modified mode [ 'test/sample1.bplist', 420, 438 ]
+324 silly gunzTarPerm extractEntry test/sample2.bplist
+325 silly gunzTarPerm modified mode [ 'test/sample2.bplist', 420, 438 ]
+326 silly gunzTarPerm extractEntry test/uid.bplist
+327 silly gunzTarPerm modified mode [ 'test/uid.bplist', 420, 438 ]
+328 silly gunzTarPerm extractEntry test/utf16.bplist
+329 silly gunzTarPerm modified mode [ 'test/utf16.bplist', 420, 438 ]
+330 verbose write writing to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\package.json
+331 info preinstall simctl@0.0.8
+332 verbose write writing to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\package.json
+333 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\package.json
+334 silly prepareForInstallMany adding shelljs@^0.2.6 from simctl dependencies
+335 silly prepareForInstallMany adding tail@^0.4.0 from simctl dependencies
+336 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\package.json
+337 info preinstall nopt@1.0.9
+338 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\package.json
+339 verbose write writing to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser\package.json
+340 silly cache add args [ 'shelljs@^0.2.6', null ]
+341 verbose cache add spec shelljs@^0.2.6
+342 silly cache add args [ 'tail@^0.4.0', null ]
+343 verbose cache add spec tail@^0.4.0
+344 silly cache add parsed spec Result {
+344 silly cache add   raw: 'shelljs@^0.2.6',
+344 silly cache add   scope: null,
+344 silly cache add   name: 'shelljs',
+344 silly cache add   rawSpec: '^0.2.6',
+344 silly cache add   spec: '>=0.2.6 <0.3.0',
+344 silly cache add   type: 'range' }
+345 silly addNamed shelljs@>=0.2.6 <0.3.0
+346 verbose addNamed ">=0.2.6 <0.3.0" is a valid semver range for shelljs
+347 silly addNameRange { name: 'shelljs', range: '>=0.2.6 <0.3.0', hasData: false }
+348 silly mapToRegistry name shelljs
+349 silly mapToRegistry using default registry
+350 silly mapToRegistry registry https://registry.npmjs.org/
+351 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+352 verbose addNameRange registry:https://registry.npmjs.org/shelljs not in flight; fetching
+353 silly cache add parsed spec Result {
+353 silly cache add   raw: 'tail@^0.4.0',
+353 silly cache add   scope: null,
+353 silly cache add   name: 'tail',
+353 silly cache add   rawSpec: '^0.4.0',
+353 silly cache add   spec: '>=0.4.0 <0.5.0',
+353 silly cache add   type: 'range' }
+354 silly addNamed tail@>=0.4.0 <0.5.0
+355 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for tail
+356 silly addNameRange { name: 'tail', range: '>=0.4.0 <0.5.0', hasData: false }
+357 silly mapToRegistry name tail
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry https://registry.npmjs.org/
+360 silly mapToRegistry uri https://registry.npmjs.org/tail
+361 verbose addNameRange registry:https://registry.npmjs.org/tail not in flight; fetching
+362 verbose request uri https://registry.npmjs.org/tail
+363 verbose request no auth needed
+364 info attempt registry request try #1 at 20:09:43
+365 http request GET https://registry.npmjs.org/tail
+366 verbose request uri https://registry.npmjs.org/shelljs
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 20:09:43
+369 verbose etag "T1653Q9V9RWC26VSGYUTK54D"
+370 http request GET https://registry.npmjs.org/shelljs
+371 silly prepareForInstallMany adding abbrev@1 from nopt dependencies
+372 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\package.json
+373 info preinstall bplist-parser@0.0.6
+374 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser\package.json
+375 silly cache add args [ 'abbrev@1', null ]
+376 verbose cache add spec abbrev@1
+377 silly cache add parsed spec Result {
+377 silly cache add   raw: 'abbrev@1',
+377 silly cache add   scope: null,
+377 silly cache add   name: 'abbrev',
+377 silly cache add   rawSpec: '1',
+377 silly cache add   spec: '>=1.0.0 <2.0.0',
+377 silly cache add   type: 'range' }
+378 silly addNamed abbrev@>=1.0.0 <2.0.0
+379 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for abbrev
+380 silly addNameRange { name: 'abbrev', range: '>=1.0.0 <2.0.0', hasData: false }
+381 silly mapToRegistry name abbrev
+382 silly mapToRegistry using default registry
+383 silly mapToRegistry registry https://registry.npmjs.org/
+384 silly mapToRegistry uri https://registry.npmjs.org/abbrev
+385 verbose addNameRange registry:https://registry.npmjs.org/abbrev not in flight; fetching
+386 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser\package.json
+387 verbose request uri https://registry.npmjs.org/abbrev
+388 verbose request no auth needed
+389 info attempt registry request try #1 at 20:09:43
+390 verbose etag "5COR5F08LNF679JR9VE4E6VZW"
+391 http request GET https://registry.npmjs.org/abbrev
+392 silly install resolved []
+393 verbose about to build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser
+394 info build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser
+395 info linkStuff bplist-parser@0.0.6
+396 silly linkStuff bplist-parser@0.0.6 has C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules as its parent node_modules
+397 silly linkStuff bplist-parser@0.0.6 is part of a global install
+398 silly linkStuff bplist-parser@0.0.6 is installed into a global node_modules
+399 verbose linkBins bplist-parser@0.0.6
+400 verbose linkMans bplist-parser@0.0.6
+401 verbose rebuildBundles bplist-parser@0.0.6
+402 info install bplist-parser@0.0.6
+403 info postinstall bplist-parser@0.0.6
+404 verbose unlock done using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\bplist-parser-4d932c31b31844ed.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\bplist-parser
+405 http 304 https://registry.npmjs.org/abbrev
+406 verbose headers { date: 'Fri, 11 Mar 2016 19:09:43 GMT',
+406 verbose headers   via: '1.1 varnish',
+406 verbose headers   'cache-control': 'max-age=300',
+406 verbose headers   etag: '"5COR5F08LNF679JR9VE4E6VZW"',
+406 verbose headers   age: '78',
+406 verbose headers   connection: 'close',
+406 verbose headers   'x-served-by': 'cache-ams4122-AMS',
+406 verbose headers   'x-cache': 'HIT',
+406 verbose headers   'x-cache-hits': '1',
+406 verbose headers   'x-timer': 'S1457723383.402018,VS0,VE0',
+406 verbose headers   vary: 'Accept' }
+407 silly get cb [ 304,
+407 silly get   { date: 'Fri, 11 Mar 2016 19:09:43 GMT',
+407 silly get     via: '1.1 varnish',
+407 silly get     'cache-control': 'max-age=300',
+407 silly get     etag: '"5COR5F08LNF679JR9VE4E6VZW"',
+407 silly get     age: '78',
+407 silly get     connection: 'close',
+407 silly get     'x-served-by': 'cache-ams4122-AMS',
+407 silly get     'x-cache': 'HIT',
+407 silly get     'x-cache-hits': '1',
+407 silly get     'x-timer': 'S1457723383.402018,VS0,VE0',
+407 silly get     vary: 'Accept' } ]
+408 verbose etag https://registry.npmjs.org/abbrev from cache
+409 verbose get saving abbrev to C:\Users\STRAT2\AppData\Roaming\npm-cache\registry.npmjs.org\abbrev\.cache.json
+410 http 304 https://registry.npmjs.org/shelljs
+411 verbose headers { date: 'Fri, 11 Mar 2016 19:09:43 GMT',
+411 verbose headers   via: '1.1 varnish',
+411 verbose headers   'cache-control': 'max-age=300',
+411 verbose headers   etag: '"T1653Q9V9RWC26VSGYUTK54D"',
+411 verbose headers   age: '251',
+411 verbose headers   connection: 'close',
+411 verbose headers   'x-served-by': 'cache-ams4145-AMS',
+411 verbose headers   'x-cache': 'HIT',
+411 verbose headers   'x-cache-hits': '2',
+411 verbose headers   'x-timer': 'S1457723383.409254,VS0,VE0',
+411 verbose headers   vary: 'Accept' }
+412 silly get cb [ 304,
+412 silly get   { date: 'Fri, 11 Mar 2016 19:09:43 GMT',
+412 silly get     via: '1.1 varnish',
+412 silly get     'cache-control': 'max-age=300',
+412 silly get     etag: '"T1653Q9V9RWC26VSGYUTK54D"',
+412 silly get     age: '251',
+412 silly get     connection: 'close',
+412 silly get     'x-served-by': 'cache-ams4145-AMS',
+412 silly get     'x-cache': 'HIT',
+412 silly get     'x-cache-hits': '2',
+412 silly get     'x-timer': 'S1457723383.409254,VS0,VE0',
+412 silly get     vary: 'Accept' } ]
+413 verbose etag https://registry.npmjs.org/shelljs from cache
+414 verbose get saving shelljs to C:\Users\STRAT2\AppData\Roaming\npm-cache\registry.npmjs.org\shelljs\.cache.json
+415 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.0 <2.0.0', hasData: true }
+416 silly addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7' ] ]
+417 silly addNamed abbrev@1.0.7
+418 verbose addNamed "1.0.7" is a plain semver version for abbrev
+419 silly cache afterAdd abbrev@1.0.7
+420 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\abbrev\1.0.7\package\package.json not in flight; writing
+421 silly addNameRange number 2 { name: 'shelljs', range: '>=0.2.6 <0.3.0', hasData: true }
+422 silly addNameRange versions [ 'shelljs',
+422 silly addNameRange   [ '0.0.1',
+422 silly addNameRange     '0.0.2',
+422 silly addNameRange     '0.0.3',
+422 silly addNameRange     '0.0.4',
+422 silly addNameRange     '0.0.5',
+422 silly addNameRange     '0.0.6',
+422 silly addNameRange     '0.0.7',
+422 silly addNameRange     '0.0.8',
+422 silly addNameRange     '0.0.9',
+422 silly addNameRange     '0.1.0',
+422 silly addNameRange     '0.1.1',
+422 silly addNameRange     '0.1.2',
+422 silly addNameRange     '0.1.3',
+422 silly addNameRange     '0.1.4',
+422 silly addNameRange     '0.2.0',
+422 silly addNameRange     '0.2.1',
+422 silly addNameRange     '0.2.2',
+422 silly addNameRange     '0.2.3',
+422 silly addNameRange     '0.2.4',
+422 silly addNameRange     '0.2.5',
+422 silly addNameRange     '0.2.6',
+422 silly addNameRange     '0.3.0',
+422 silly addNameRange     '0.4.0',
+422 silly addNameRange     '0.5.0',
+422 silly addNameRange     '0.5.1',
+422 silly addNameRange     '0.5.2',
+422 silly addNameRange     '0.5.3',
+422 silly addNameRange     '0.6.0',
+422 silly addNameRange     '0.0.1-alpha1',
+422 silly addNameRange     '0.0.2-pre1',
+422 silly addNameRange     '0.0.4-pre1',
+422 silly addNameRange     '0.0.5-pre1',
+422 silly addNameRange     '0.0.5-pre2',
+422 silly addNameRange     '0.0.5-pre3',
+422 silly addNameRange     '0.0.5-pre4',
+422 silly addNameRange     '0.0.6-pre1',
+422 silly addNameRange     '0.0.6-pre2' ] ]
+423 silly addNamed shelljs@0.2.6
+424 verbose addNamed "0.2.6" is a plain semver version for shelljs
+425 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\abbrev\1.0.7\package\package.json written
+426 silly install resolved [ { name: 'abbrev',
+426 silly install resolved     version: '1.0.7',
+426 silly install resolved     description: 'Like ruby\'s abbrev module, but in js',
+426 silly install resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+426 silly install resolved     main: 'abbrev.js',
+426 silly install resolved     scripts: { test: 'tap test.js --cov' },
+426 silly install resolved     repository:
+426 silly install resolved      { type: 'git',
+426 silly install resolved        url: 'git+ssh://git@github.com/isaacs/abbrev-js.git' },
+426 silly install resolved     license: 'ISC',
+426 silly install resolved     devDependencies: { tap: '^1.2.0' },
+426 silly install resolved     readme: '# abbrev-js\n\nJust like [ruby\'s Abbrev](http://apidock.com/ruby/Abbrev).\n\nUsage:\n\n    var abbrev = require("abbrev");\n    abbrev("foo", "fool", "folding", "flop");\n    \n    // returns:\n    { fl: \'flop\'\n    , flo: \'flop\'\n    , flop: \'flop\'\n    , fol: \'folding\'\n    , fold: \'folding\'\n    , foldi: \'folding\'\n    , foldin: \'folding\'\n    , folding: \'folding\'\n    , foo: \'foo\'\n    , fool: \'fool\'\n    }\n\nThis is handy for command-line scripts, or other cases where you want to be able to accept shorthands.\n',
+426 silly install resolved     readmeFilename: 'README.md',
+426 silly install resolved     bugs: { url: 'https://github.com/isaacs/abbrev-js/issues' },
+426 silly install resolved     homepage: 'https://github.com/isaacs/abbrev-js#readme',
+426 silly install resolved     _id: 'abbrev@1.0.7',
+426 silly install resolved     _shasum: '5b6035b2ee9d4fb5cf859f08a9be81b208491843',
+426 silly install resolved     _resolved: 'file:node_shrinkwrap\\abbrev-1.0.7.tgz',
+426 silly install resolved     _from: 'abbrev@>=1.0.0 <2.0.0' } ]
+427 info install abbrev@1.0.7 into C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+428 info installOne abbrev@1.0.7
+429 verbose installOne of abbrev to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt not in flight; installing
+430 silly mapToRegistry name shelljs
+431 silly mapToRegistry using default registry
+432 silly mapToRegistry registry https://registry.npmjs.org/
+433 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+434 verbose addRemoteTarball https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz not in flight; adding
+435 verbose addRemoteTarball [ 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+435 verbose addRemoteTarball   '90492d72ffcc8159976baba62fb0f6884f0c3378' ]
+436 verbose lock using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\abbrev-61c5b0abbf60d2f0.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+437 silly install write writing abbrev 1.0.7 to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+438 verbose unbuild node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+439 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev is being purged from base C:\Users\STRAT2\AppData\Roaming\npm
+440 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+441 info retry fetch attempt 1 at 20:09:43
+442 info attempt registry request try #1 at 20:09:43
+443 http fetch GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+444 verbose tar unpack C:\Users\STRAT2\AppData\Roaming\npm-cache\abbrev\1.0.7\package.tgz
+445 verbose tar unpacking to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+446 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev is being purged
+447 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+448 silly gunzTarPerm modes [ '777', '666' ]
+449 silly gunzTarPerm extractEntry package.json
+450 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+451 silly gunzTarPerm extractEntry .npmignore
+452 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+453 silly gunzTarPerm extractEntry README.md
+454 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+455 silly gunzTarPerm extractEntry LICENSE
+456 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+457 silly gunzTarPerm extractEntry abbrev.js
+458 silly gunzTarPerm modified mode [ 'abbrev.js', 420, 438 ]
+459 silly gunzTarPerm extractEntry test.js
+460 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+461 silly gunzTarPerm extractEntry CONTRIBUTING.md
+462 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+463 silly gunzTarPerm extractEntry .travis.yml
+464 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+465 verbose write writing to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev\package.json
+466 info preinstall abbrev@1.0.7
+467 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev\package.json
+468 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev\package.json
+469 silly install resolved []
+470 verbose about to build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+471 info build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+472 info linkStuff abbrev@1.0.7
+473 silly linkStuff abbrev@1.0.7 has C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules as its parent node_modules
+474 silly linkStuff abbrev@1.0.7 is part of a global install
+475 silly linkStuff abbrev@1.0.7 is installed into a global node_modules
+476 verbose linkBins abbrev@1.0.7
+477 verbose linkMans abbrev@1.0.7
+478 verbose rebuildBundles abbrev@1.0.7
+479 info install abbrev@1.0.7
+480 info postinstall abbrev@1.0.7
+481 verbose unlock done using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\abbrev-61c5b0abbf60d2f0.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt\node_modules\abbrev
+482 verbose about to build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+483 info build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+484 info linkStuff nopt@1.0.9
+485 silly linkStuff nopt@1.0.9 has C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules as its parent node_modules
+486 silly linkStuff nopt@1.0.9 is part of a global install
+487 silly linkStuff nopt@1.0.9 is installed into a global node_modules
+488 verbose linkBins nopt@1.0.9
+489 verbose link bins [ { nopt: './bin/nopt.js' },
+489 verbose link bins   'C:\\Users\\STRAT2\\AppData\\Roaming\\npm\\node_modules\\ios-sim\\node_modules\\.bin',
+489 verbose link bins   false ]
+490 verbose linkMans nopt@1.0.9
+491 verbose rebuildBundles nopt@1.0.9
+492 verbose rebuildBundles [ 'abbrev' ]
+493 info install nopt@1.0.9
+494 info postinstall nopt@1.0.9
+495 verbose unlock done using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\nopt-558f41e74b9b71cf.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\nopt
+496 http fetch 200 https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+497 http 200 https://registry.npmjs.org/tail
+498 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+498 verbose headers   etag: '"34U7TEQ2B54U5V2CGM8CGXQEQ"',
+498 verbose headers   'content-type': 'application/json',
+498 verbose headers   'cache-control': 'max-age=300',
+498 verbose headers   'content-length': '17244',
+498 verbose headers   'accept-ranges': 'bytes',
+498 verbose headers   date: 'Fri, 11 Mar 2016 19:09:43 GMT',
+498 verbose headers   via: '1.1 varnish',
+498 verbose headers   age: '0',
+498 verbose headers   connection: 'close',
+498 verbose headers   'x-served-by': 'cache-ams4146-AMS',
+498 verbose headers   'x-cache': 'HIT',
+498 verbose headers   'x-cache-hits': '1',
+498 verbose headers   'x-timer': 'S1457723383.361623,VS0,VE184',
+498 verbose headers   vary: 'Accept' }
+499 silly get cb [ 200,
+499 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+499 silly get     etag: '"34U7TEQ2B54U5V2CGM8CGXQEQ"',
+499 silly get     'content-type': 'application/json',
+499 silly get     'cache-control': 'max-age=300',
+499 silly get     'content-length': '17244',
+499 silly get     'accept-ranges': 'bytes',
+499 silly get     date: 'Fri, 11 Mar 2016 19:09:43 GMT',
+499 silly get     via: '1.1 varnish',
+499 silly get     age: '0',
+499 silly get     connection: 'close',
+499 silly get     'x-served-by': 'cache-ams4146-AMS',
+499 silly get     'x-cache': 'HIT',
+499 silly get     'x-cache-hits': '1',
+499 silly get     'x-timer': 'S1457723383.361623,VS0,VE184',
+499 silly get     vary: 'Accept' } ]
+500 verbose get saving tail to C:\Users\STRAT2\AppData\Roaming\npm-cache\registry.npmjs.org\tail\.cache.json
+501 silly fetchAndShaCheck shasum 90492d72ffcc8159976baba62fb0f6884f0c3378
+502 verbose addTmpTarball C:\Users\STRAT2\AppData\Local\Temp\npm-2124-2e511ceb\registry.npmjs.org\shelljs\-\shelljs-0.2.6.tgz not in flight; adding
+503 verbose addTmpTarball already have metadata; skipping unpack for shelljs@0.2.6
+504 silly cache afterAdd shelljs@0.2.6
+505 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\shelljs\0.2.6\package\package.json not in flight; writing
+506 silly addNameRange number 2 { name: 'tail', range: '>=0.4.0 <0.5.0', hasData: true }
+507 silly addNameRange versions [ 'tail',
+507 silly addNameRange   [ '0.0.3',
+507 silly addNameRange     '0.0.4',
+507 silly addNameRange     '0.1.0',
+507 silly addNameRange     '0.1.1',
+507 silly addNameRange     '0.1.2',
+507 silly addNameRange     '0.2.0',
+507 silly addNameRange     '0.2.1',
+507 silly addNameRange     '0.2.2',
+507 silly addNameRange     '0.2.3',
+507 silly addNameRange     '0.2.4',
+507 silly addNameRange     '0.3.0',
+507 silly addNameRange     '0.3.1',
+507 silly addNameRange     '0.3.2',
+507 silly addNameRange     '0.3.5',
+507 silly addNameRange     '0.3.6',
+507 silly addNameRange     '0.3.7',
+507 silly addNameRange     '0.3.8',
+507 silly addNameRange     '0.3.9',
+507 silly addNameRange     '0.4.0' ] ]
+508 silly addNamed tail@0.4.0
+509 verbose addNamed "0.4.0" is a plain semver version for tail
+510 silly mapToRegistry name tail
+511 silly mapToRegistry using default registry
+512 silly mapToRegistry registry https://registry.npmjs.org/
+513 silly mapToRegistry uri https://registry.npmjs.org/tail
+514 verbose addRemoteTarball https://registry.npmjs.org/tail/-/tail-0.4.0.tgz not in flight; adding
+515 verbose addRemoteTarball [ 'https://registry.npmjs.org/tail/-/tail-0.4.0.tgz',
+515 verbose addRemoteTarball   'd29de72750cc99db1e053aff13c359ecfb713002' ]
+516 info retry fetch attempt 1 at 20:09:43
+517 info attempt registry request try #1 at 20:09:43
+518 http fetch GET https://registry.npmjs.org/tail/-/tail-0.4.0.tgz
+519 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\shelljs\0.2.6\package\package.json written
+520 http fetch 200 https://registry.npmjs.org/tail/-/tail-0.4.0.tgz
+521 silly fetchAndShaCheck shasum d29de72750cc99db1e053aff13c359ecfb713002
+522 verbose addTmpTarball C:\Users\STRAT2\AppData\Local\Temp\npm-2124-2e511ceb\registry.npmjs.org\tail\-\tail-0.4.0.tgz not in flight; adding
+523 verbose addTmpTarball already have metadata; skipping unpack for tail@0.4.0
+524 silly cache afterAdd tail@0.4.0
+525 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\tail\0.4.0\package\package.json not in flight; writing
+526 verbose afterAdd C:\Users\STRAT2\AppData\Roaming\npm-cache\tail\0.4.0\package\package.json written
+527 silly install resolved [ { name: 'shelljs',
+527 silly install resolved     version: '0.2.6',
+527 silly install resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+527 silly install resolved     description: 'Portable Unix shell commands for Node.js',
+527 silly install resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+527 silly install resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+527 silly install resolved     homepage: 'http://github.com/arturadib/shelljs',
+527 silly install resolved     main: './shell.js',
+527 silly install resolved     scripts: { test: 'node scripts/run-tests' },
+527 silly install resolved     bin: { shjs: './bin/shjs' },
+527 silly install resolved     dependencies: {},
+527 silly install resolved     devDependencies: { jshint: '~2.1.11' },
+527 silly install resolved     optionalDependencies: {},
+527 silly install resolved     engines: { node: '>=0.8.0' },
+527 silly install resolved     bugs: { url: 'https://github.com/arturadib/shelljs/issues' },
+527 silly install resolved     _id: 'shelljs@0.2.6',
+527 silly install resolved     dist:
+527 silly install resolved      { shasum: '90492d72ffcc8159976baba62fb0f6884f0c3378',
+527 silly install resolved        tarball: 'http://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz' },
+527 silly install resolved     _from: 'shelljs@>=0.2.6 <0.3.0',
+527 silly install resolved     _npmVersion: '1.3.8',
+527 silly install resolved     _npmUser: { name: 'artur', email: 'arturadib@gmail.com' },
+527 silly install resolved     maintainers: [ [Object] ],
+527 silly install resolved     directories: {},
+527 silly install resolved     _shasum: '90492d72ffcc8159976baba62fb0f6884f0c3378',
+527 silly install resolved     _resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz' },
+527 silly install resolved   { author: { name: 'Luca Grulla' },
+527 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+527 silly install resolved     name: 'tail',
+527 silly install resolved     description: 'tail a file in node',
+527 silly install resolved     version: '0.4.0',
+527 silly install resolved     repository:
+527 silly install resolved      { type: 'git',
+527 silly install resolved        url: 'git://github.com/lucagrulla/node-tail.git' },
+527 silly install resolved     main: 'tail',
+527 silly install resolved     engines: { node: '>= 0.4.0' },
+527 silly install resolved     dependencies: {},
+527 silly install resolved     devDependencies: { 'coffee-script': '1.7.1' },
+527 silly install resolved     bugs: { url: 'https://github.com/lucagrulla/node-tail/issues' },
+527 silly install resolved     homepage: 'https://github.com/lucagrulla/node-tail',
+527 silly install resolved     _id: 'tail@0.4.0',
+527 silly install resolved     scripts: {},
+527 silly install resolved     _shasum: 'd29de72750cc99db1e053aff13c359ecfb713002',
+527 silly install resolved     _from: 'tail@>=0.4.0 <0.5.0',
+527 silly install resolved     _npmVersion: '1.4.15',
+527 silly install resolved     _npmUser: { name: 'lucagrulla', email: 'luca.grulla@gmail.com' },
+527 silly install resolved     maintainers: [ [Object] ],
+527 silly install resolved     dist:
+527 silly install resolved      { shasum: 'd29de72750cc99db1e053aff13c359ecfb713002',
+527 silly install resolved        tarball: 'http://registry.npmjs.org/tail/-/tail-0.4.0.tgz' },
+527 silly install resolved     directories: {},
+527 silly install resolved     _resolved: 'https://registry.npmjs.org/tail/-/tail-0.4.0.tgz' } ]
+528 info install shelljs@0.2.6 into C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+529 info install tail@0.4.0 into C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+530 info installOne shelljs@0.2.6
+531 verbose installOne of shelljs to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl not in flight; installing
+532 info installOne tail@0.4.0
+533 verbose installOne of tail to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl not in flight; installing
+534 verbose lock using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\tail-36ab6ff06c96b335.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail
+535 verbose lock using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\shelljs-f9b491b54794fb29.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+536 silly install write writing tail 0.4.0 to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail
+537 silly install write writing shelljs 0.2.6 to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+538 verbose unbuild node_modules\ios-sim\node_modules\simctl\node_modules\tail
+539 verbose unbuild node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+540 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail is being purged from base C:\Users\STRAT2\AppData\Roaming\npm
+541 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail
+542 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs is being purged from base C:\Users\STRAT2\AppData\Roaming\npm
+543 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+544 verbose tar unpack C:\Users\STRAT2\AppData\Roaming\npm-cache\tail\0.4.0\package.tgz
+545 verbose tar unpacking to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail
+546 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail is being purged
+547 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail
+548 verbose tar unpack C:\Users\STRAT2\AppData\Roaming\npm-cache\shelljs\0.2.6\package.tgz
+549 verbose tar unpacking to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+550 silly gentlyRm C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs is being purged
+551 verbose gentlyRm don't care about contents; nuking C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+552 silly gunzTarPerm modes [ '777', '666' ]
+553 silly gunzTarPerm modes [ '777', '666' ]
+554 silly gunzTarPerm extractEntry package.json
+555 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+556 silly gunzTarPerm extractEntry package.json
+557 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+558 silly gunzTarPerm extractEntry README.md
+559 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+560 silly gunzTarPerm extractEntry tail.js
+561 silly gunzTarPerm modified mode [ 'tail.js', 420, 438 ]
+562 silly gunzTarPerm extractEntry .npmignore
+563 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+564 silly gunzTarPerm extractEntry README.md
+565 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+566 silly gunzTarPerm extractEntry LICENSE
+567 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+568 silly gunzTarPerm extractEntry global.js
+569 silly gunzTarPerm modified mode [ 'global.js', 420, 438 ]
+570 silly gunzTarPerm extractEntry make.js
+571 silly gunzTarPerm modified mode [ 'make.js', 420, 438 ]
+572 silly gunzTarPerm extractEntry shell.js
+573 silly gunzTarPerm modified mode [ 'shell.js', 420, 438 ]
+574 silly gunzTarPerm extractEntry bin/shjs
+575 silly gunzTarPerm modified mode [ 'bin/shjs', 493, 511 ]
+576 silly gunzTarPerm extractEntry .travis.yml
+577 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+578 silly gunzTarPerm extractEntry .jshintrc
+579 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+580 silly gunzTarPerm extractEntry scripts/generate-docs.js
+581 silly gunzTarPerm modified mode [ 'scripts/generate-docs.js', 493, 511 ]
+582 silly gunzTarPerm extractEntry scripts/run-tests.js
+583 silly gunzTarPerm modified mode [ 'scripts/run-tests.js', 493, 511 ]
+584 verbose write writing to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail\package.json
+585 silly gunzTarPerm extractEntry .documentup.json
+586 silly gunzTarPerm modified mode [ '.documentup.json', 420, 438 ]
+587 silly gunzTarPerm extractEntry src/cat.js
+588 silly gunzTarPerm modified mode [ 'src/cat.js', 420, 438 ]
+589 silly gunzTarPerm extractEntry src/exec.js
+590 silly gunzTarPerm modified mode [ 'src/exec.js', 420, 438 ]
+591 silly gunzTarPerm extractEntry src/find.js
+592 silly gunzTarPerm modified mode [ 'src/find.js', 420, 438 ]
+593 silly gunzTarPerm extractEntry src/grep.js
+594 silly gunzTarPerm modified mode [ 'src/grep.js', 420, 438 ]
+595 silly gunzTarPerm extractEntry src/ls.js
+596 silly gunzTarPerm modified mode [ 'src/ls.js', 420, 438 ]
+597 info preinstall tail@0.4.0
+598 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail\package.json
+599 silly gunzTarPerm extractEntry src/error.js
+600 silly gunzTarPerm modified mode [ 'src/error.js', 420, 438 ]
+601 silly gunzTarPerm extractEntry src/mv.js
+602 silly gunzTarPerm modified mode [ 'src/mv.js', 420, 438 ]
+603 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail\package.json
+604 silly gunzTarPerm extractEntry src/popd.js
+605 silly gunzTarPerm modified mode [ 'src/popd.js', 420, 438 ]
+606 silly gunzTarPerm extractEntry src/pushd.js
+607 silly gunzTarPerm modified mode [ 'src/pushd.js', 420, 438 ]
+608 silly install resolved []
+609 verbose about to build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail
+610 info build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail
+611 info linkStuff tail@0.4.0
+612 silly linkStuff tail@0.4.0 has C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules as its parent node_modules
+613 silly linkStuff tail@0.4.0 is part of a global install
+614 silly linkStuff tail@0.4.0 is installed into a global node_modules
+615 silly gunzTarPerm extractEntry src/pwd.js
+616 silly gunzTarPerm modified mode [ 'src/pwd.js', 420, 438 ]
+617 silly gunzTarPerm extractEntry src/rm.js
+618 silly gunzTarPerm modified mode [ 'src/rm.js', 420, 438 ]
+619 verbose linkBins tail@0.4.0
+620 verbose linkMans tail@0.4.0
+621 verbose rebuildBundles tail@0.4.0
+622 info install tail@0.4.0
+623 info postinstall tail@0.4.0
+624 verbose unlock done using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\tail-36ab6ff06c96b335.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\tail
+625 silly gunzTarPerm extractEntry src/echo.js
+626 silly gunzTarPerm modified mode [ 'src/echo.js', 420, 438 ]
+627 silly gunzTarPerm extractEntry src/sed.js
+628 silly gunzTarPerm modified mode [ 'src/sed.js', 420, 438 ]
+629 silly gunzTarPerm extractEntry src/dirs.js
+630 silly gunzTarPerm modified mode [ 'src/dirs.js', 420, 438 ]
+631 silly gunzTarPerm extractEntry src/tempdir.js
+632 silly gunzTarPerm modified mode [ 'src/tempdir.js', 420, 438 ]
+633 silly gunzTarPerm extractEntry src/cp.js
+634 silly gunzTarPerm modified mode [ 'src/cp.js', 420, 438 ]
+635 silly gunzTarPerm extractEntry src/test.js
+636 silly gunzTarPerm modified mode [ 'src/test.js', 420, 438 ]
+637 silly gunzTarPerm extractEntry src/common.js
+638 silly gunzTarPerm modified mode [ 'src/common.js', 420, 438 ]
+639 silly gunzTarPerm extractEntry src/to.js
+640 silly gunzTarPerm modified mode [ 'src/to.js', 420, 438 ]
+641 silly gunzTarPerm extractEntry src/chmod.js
+642 silly gunzTarPerm modified mode [ 'src/chmod.js', 420, 438 ]
+643 silly gunzTarPerm extractEntry src/toEnd.js
+644 silly gunzTarPerm modified mode [ 'src/toEnd.js', 420, 438 ]
+645 silly gunzTarPerm extractEntry src/cd.js
+646 silly gunzTarPerm modified mode [ 'src/cd.js', 420, 438 ]
+647 silly gunzTarPerm extractEntry src/which.js
+648 silly gunzTarPerm modified mode [ 'src/which.js', 420, 438 ]
+649 silly gunzTarPerm extractEntry src/mkdir.js
+650 silly gunzTarPerm modified mode [ 'src/mkdir.js', 420, 438 ]
+651 verbose write writing to C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs\package.json
+652 info preinstall shelljs@0.2.6
+653 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs\package.json
+654 verbose readDependencies loading dependencies from C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs\package.json
+655 silly install resolved []
+656 verbose about to build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+657 info build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+658 info linkStuff shelljs@0.2.6
+659 silly linkStuff shelljs@0.2.6 has C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules as its parent node_modules
+660 silly linkStuff shelljs@0.2.6 is part of a global install
+661 silly linkStuff shelljs@0.2.6 is installed into a global node_modules
+662 verbose linkBins shelljs@0.2.6
+663 verbose link bins [ { shjs: './bin/shjs' },
+663 verbose link bins   'C:\\Users\\STRAT2\\AppData\\Roaming\\npm\\node_modules\\ios-sim\\node_modules\\simctl\\node_modules\\.bin',
+663 verbose link bins   false ]
+664 verbose linkMans shelljs@0.2.6
+665 verbose rebuildBundles shelljs@0.2.6
+666 info install shelljs@0.2.6
+667 info postinstall shelljs@0.2.6
+668 verbose unlock done using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\shelljs-f9b491b54794fb29.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl\node_modules\shelljs
+669 verbose about to build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+670 info build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+671 info linkStuff simctl@0.0.8
+672 silly linkStuff simctl@0.0.8 has C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules as its parent node_modules
+673 silly linkStuff simctl@0.0.8 is part of a global install
+674 silly linkStuff simctl@0.0.8 is installed into a global node_modules
+675 verbose linkBins simctl@0.0.8
+676 verbose linkMans simctl@0.0.8
+677 verbose rebuildBundles simctl@0.0.8
+678 verbose rebuildBundles [ '.bin', 'shelljs', 'tail' ]
+679 info install simctl@0.0.8
+680 info postinstall simctl@0.0.8
+681 verbose unlock done using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\simctl-85e112908380e2c2.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim\node_modules\simctl
+682 verbose about to build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+683 info build C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+684 info linkStuff ios-sim@5.0.6
+685 silly linkStuff ios-sim@5.0.6 has C:\Users\STRAT2\AppData\Roaming\npm\node_modules as its parent node_modules
+686 silly linkStuff ios-sim@5.0.6 is part of a global install
+687 silly linkStuff ios-sim@5.0.6 is installed into a global node_modules
+688 silly linkStuff ios-sim@5.0.6 is installed into the top-level global node_modules
+689 verbose linkBins ios-sim@5.0.6
+690 verbose link bins [ { 'ios-sim': './bin/ios-sim' },
+690 verbose link bins   'C:\\Users\\STRAT2\\AppData\\Roaming\\npm',
+690 verbose link bins   true ]
+691 verbose linkMans ios-sim@5.0.6
+692 verbose rebuildBundles ios-sim@5.0.6
+693 verbose rebuildBundles [ '.bin', 'bplist-parser', 'nopt', 'simctl' ]
+694 info install ios-sim@5.0.6
+695 info postinstall ios-sim@5.0.6
+696 verbose unlock done using C:\Users\STRAT2\AppData\Roaming\npm-cache\_locks\ios-sim-dffd477d8ab93c16.lock for C:\Users\STRAT2\AppData\Roaming\npm\node_modules\ios-sim
+697 verbose stack Error: Unsupported
+697 verbose stack     at checkPlatform (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:47:14)
+697 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+697 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+697 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+697 verbose stack     at checkEngine (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:11:20)
+697 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+697 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+697 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+697 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:1038:5
+697 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\locker.js:39:7
+698 verbose pkgid ios-deploy@1.8.5
+699 verbose cwd C:\Code\Smart-Office-\Client\SmartOfficeApp
+700 error Windows_NT 6.1.7601
+701 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "ios-sim" "ios-deploy"
+702 error node v4.3.1
+703 error npm  v2.14.12
+704 error code EBADPLATFORM
+705 error notsup Unsupported
+705 error notsup Not compatible with your operating system or architecture: ios-deploy@1.8.5
+705 error notsup Valid OS:    darwin
+705 error notsup Valid Arch:  any
+705 error notsup Actual OS:   win32
+705 error notsup Actual Arch: x64
+706 verbose exit [ 1, true ]
