@@ -25,6 +25,10 @@ paper-toolbar {
     color: white;
 }
 
+paper-item .title {
+    font-size: 16pt;
+}
+
 .content {
     height: 100%;
 

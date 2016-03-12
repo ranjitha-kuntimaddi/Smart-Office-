@@ -10,6 +10,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../../bower_components/iron-icons/maps-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/social-icons.html">
 
 <link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
 <link rel="import" href="../../bower_components/paper-header-panel/paper-header-panel.html">
@@ -19,6 +20,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../../bower_components/paper-item/paper-item.html">
 <link rel="import" href="../../bower_components/paper-item/paper-icon-item.html">
 <link rel="import" href="../../bower_components/paper-toggle-button/paper-toggle-button.html">
+<link rel="import" href="x-location.html">
 
 
 <!--
@@ -37,13 +39,24 @@ Left Nav + View
             <div class="nav" drawer role="listbox">
                 <!-- Nav Content -->
                 <paper-item>
+                    <span class="title">Menu</span>
+                </paper-item>
+                <paper-item>
                     <paper-toggle-button></paper-toggle-button>
                     <paper-item-body>Privacy</paper-item-body>
                 </paper-item>
-                    <paper-icon-item>
-                        <iron-icon icon="maps:my-location" item-icon></iron-icon>
+                <paper-icon-item>
+                    <iron-icon icon="maps:my-location" item-icon></iron-icon>
                     My Location
-                    </paper-icon-item>
+                </paper-icon-item>
+                <paper-icon-item>
+                    <iron-icon icon="maps:near-me" item-icon></iron-icon>
+                    Desk nearby
+                </paper-icon-item>
+                <paper-icon-item>
+                    <iron-icon icon="social:people" item-icon></iron-icon>
+                    Find my team
+                </paper-icon-item>
 
 
             </div>
@@ -58,7 +71,9 @@ Left Nav + View
                 </paper-toolbar>
 
                 <!-- Main Content -->
-                <div class="content"></div>
+                <div class="content">
+                    <x-location></x-location>
+                </div>
 
             </paper-header-panel>
 
